@@ -38,10 +38,14 @@
 ### Клонирование репозитория
 
 ```bash
-git clone https://github.com/amainn/vetclinic-pr.git
+git clone git@github.com:amainn/vetsite_pr.git
 cd vetclinic-pr
 ```
 ## Доступ к сервисам
+```bash
+docker-compose up --build
+```
+
 После запуска контейнеров, сайт будет находиться по адресу: http://localhost
 
 ## Остановка
